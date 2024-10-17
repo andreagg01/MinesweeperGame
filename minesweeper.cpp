@@ -7,7 +7,7 @@
 // N is the dimension of the grid of the game, M is the number of mines
 // N and M are modifiable from here to change difficulty (Suggestion: N=9, M=10 -> easy, N=16, M=40 -> medium, N=30, M=180 -> extreme)
 #define N 9
-#define M 0
+#define M 10
 
 // Struct for the Grid of the game, each cell has a number n (-1 for the bomb, 0 if it has no bomb near itself, 1 if it has one bomb near itself, ...)
 // and an int show, to indicate whether the cell has been discovered by the player
